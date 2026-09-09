@@ -2,41 +2,68 @@ import type { Project } from "@/types/project";
 
 export const projects: Project[] = [
   {
+    id: "genie-ai",
+    title: "GenieAI",
+    description:
+      "An AI-powered full-stack chatbot built with MERN, Gemini API, and Clerk authentication with real-time streaming responses and persistent chat history.",
+    tags: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Gemini API",
+      "Clerk",
+    ],
+    link: "https://genieaichat.vercel.app/",
+    github: "https://github.com/Mayankax/GenieAI",
+  },
+
+  {
     id: "loan-dashboard",
     title: "Loan Picks Dashboard",
     description:
-      "A full-stack dashboard built using Next.js, Prisma, Supabase, and AI-powered recommendations. Includes JWT auth, filtering, matching engine, and polished UI.",
-    image: "/loan.png",
-    tags: ["Next.js", "TypeScript", "Prisma", "AI", "Supabase"],
-    link: "https://loanadvisor.vercel.app",
-    github: "https://github.com/Mayankax",
+      "An AI-integrated loan discovery platform built with Next.js, Prisma, PostgreSQL, and Gemini AI featuring secure JWT authentication, advanced filtering, and AI-powered product-grounded recommendations.",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "Gemini AI",
+      "Supabase",
+    ],
+    link: "https://loanadvisor.vercel.app/",
+    github: "https://github.com/Mayankax/loan-picks-dashboard",
   },
+
   {
-    id: "genie-ai",
-    title: "GenieAI – Chatbot",
+    id: "cinephiles",
+    title: "Cinephiles",
     description:
-      "An AI-powered chatbot built using MERN stack and Gemini API for intelligent real-time responses with chat history & authentication.",
-    image: "/aichat.png",
-    tags: ["MERN", "Gemini API", "AI", "MongoDB"],
-    link: "https://genieaichat.vercel.app",
-    github: "https://github.com/Mayankax",
+      "A content-based movie recommendation system using Python, Pandas, and cosine similarity to recommend relevant movies based on genres, keywords, cast, and user preferences.",
+    tags: [
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "Streamlit",
+      "TMDb API",
+      "MySQL",
+    ],
+    github: "https://github.com/Mayankax/Cinephiles",
   },
-  {
-    id: "social-media",
-    title: "Social Media App",
-    description:
-      "A full-featured MERN social media platform with profiles, posts, comments, likes, and responsive UI.",
-    image: "/lama.png",
-    tags: ["React", "Node.js", "Express", "MongoDB"],
-    github: "https://github.com/Mayankax",
-  },
+
   {
     id: "topic-clustering",
-    title: "Topic Clustering using Llama 2 & BERTopic",
+    title: "Topic Clustering using Llama 2",
     description:
-      "An NLP pipeline that performs unsupervised topic modeling on large-scale text datasets using BERTopic and Llama 2 embeddings. Designed to cluster global news articles and extract meaningful insights.",
-    image: "/cluster.png",
-    tags: ["Python", "Llama-2", "BERTopic", "NLP", "Machine Learning"],
-    github: "https://github.com/Mayankax",
-  }
+      "An NLP-based document analysis pipeline using BERTopic, UMAP, HDBSCAN, and Llama 2 to identify semantic clusters and generate human-readable topic labels from large-scale Reddit datasets.",
+    tags: [
+      "Python",
+      "Llama 2",
+      "BERTopic",
+      "UMAP",
+      "HDBSCAN",
+      "NLP",
+    ],
+    github: "https://github.com/Mayankax/Topic-Modelling-Using-Llama2",
+  },
 ];
