@@ -201,7 +201,7 @@ export default function Home() {
           </motion.div>
         </div>
 
-        <div className="mx-auto w-full max-w-6xl px-6 py-20 sm:py-28">
+        <div className="mx-auto w-full max-w-6xl px-6 py-16 sm:py-20">
           <div className="max-w-5xl">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -341,7 +341,7 @@ export default function Home() {
       >
         <div className="absolute left-1/2 top-0 h-64 w-[500px] -translate-x-1/2 rounded-full bg-white/[0.018] blur-[120px]" />
 
-        <div className="relative mx-auto max-w-6xl px-6 py-24 sm:py-32">
+        <div className="relative mx-auto max-w-6xl px-6 py-16 sm:py-24">
           <SectionLabel>About</SectionLabel>
 
           <div className="grid gap-12 lg:grid-cols-[0.7fr_1.3fr]">
@@ -391,10 +391,10 @@ export default function Home() {
       >
         <div className="absolute left-[-200px] top-1/3 h-[500px] w-[500px] rounded-full bg-white/[0.015] blur-[140px]" />
 
-        <div className="relative mx-auto max-w-6xl px-6 py-24 sm:py-32">
+        <div className="relative mx-auto max-w-6xl px-6 py-16 sm:py-24">
           <SectionLabel>Skills</SectionLabel>
 
-          <div className="mb-12 max-w-2xl">
+          <div className="mb-8 max-w-2xl">
             <h2 className="text-3xl font-semibold tracking-tight sm:text-5xl">
               Tools I use to build things.
             </h2>
@@ -427,10 +427,10 @@ export default function Home() {
       >
         <div className="absolute right-[-200px] top-1/4 h-[500px] w-[500px] rounded-full bg-white/[0.018] blur-[140px]" />
 
-        <div className="relative mx-auto max-w-6xl px-6 py-24 sm:py-32">
+        <div className="relative mx-auto max-w-6xl px-6 py-16 sm:py-24">
           <SectionLabel>Selected Work</SectionLabel>
 
-          <div className="mb-14 flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
+          <div className="mb-8 flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
             <h2 className="max-w-2xl text-3xl font-semibold tracking-tight sm:text-5xl">
               Projects built with purpose.
             </h2>
@@ -458,7 +458,7 @@ export default function Home() {
         id="achievements"
         className="border-t border-white/[0.08]"
       >
-        <div className="mx-auto max-w-6xl px-6 py-24 sm:py-32">
+        <div className="mx-auto max-w-6xl px-6 py-16 sm:py-24">
           <SectionLabel>Achievements</SectionLabel>
 
           <div className="grid gap-5 sm:grid-cols-2">
@@ -559,7 +559,7 @@ export default function Home() {
         id="education"
         className="border-t border-white/[0.08]"
       >
-        <div className="mx-auto max-w-6xl px-6 py-24 sm:py-32">
+        <div className="mx-auto max-w-6xl px-6 py-16 sm:py-24">
           <SectionLabel>Education</SectionLabel>
 
           <div className="max-w-3xl">
@@ -596,7 +596,7 @@ export default function Home() {
           <div className="absolute bottom-[-250px] left-1/2 h-[500px] w-[700px] -translate-x-1/2 rounded-full bg-white/[0.025] blur-[150px]" />
         </div>
 
-        <div className="relative mx-auto max-w-6xl px-6 py-24 sm:py-32">
+        <div className="relative mx-auto max-w-6xl px-6 py-16 sm:py-24">
           <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.025] p-8 shadow-2xl shadow-black/20 sm:p-12 lg:p-16">
             <div className="absolute right-0 top-0 h-64 w-64 rounded-full bg-white/[0.025] blur-[110px]" />
 
