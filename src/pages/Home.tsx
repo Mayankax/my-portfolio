@@ -201,7 +201,7 @@ export default function Home() {
           </motion.div>
         </div>
 
-        <div className="mx-auto w-full max-w-6xl px-6 py-16 sm:py-20">
+        <div className="mx-auto w-full max-w-6xl px-6 py-16 sm:py-12">
           <div className="max-w-5xl">
             <motion.div
               initial={{ opacity: 0, y: 20 }}

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import HangingLamp from "@/components/HangingLamp";
 
 const navItems = [
   { label: "About", href: "#about" },
@@ -30,13 +31,24 @@ export default function Navbar() {
               {item.label}
             </a>
           ))}
+
+          {/* Hanging lamp anchor attached cleanly at the bottom edge of navbar */}
+          <div id="lamp-anchor" className="relative flex items-center justify-center">
+            <div className="absolute top-6.5 left-40 -translate-x-1/2 pt-1">
+              <HangingLamp wireHeight={20} />
+            </div>
+          </div>
         </div>
 
         <Button
           asChild
           className="rounded-full bg-white px-5 text-sm text-black hover:bg-white/90"
         >
-          <a href="/resume.pdf" target="_blank" rel="noreferrer">
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
             Resume
           </a>
         </Button>
